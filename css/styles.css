@@ -609,6 +609,7 @@ progress {
 }
 .img-fluid {
   filter: grayscale(1);
+  transition: filter 1s ease-in-out;
   max-width: 100%;
   height: auto;
 }
@@ -620,6 +621,7 @@ progress {
 .img-planetary{
   max-width: 100%;
   filter: grayscale(1);
+  transition: filter 1s ease-in-out;
   display: block;
   margin-left: auto;
   margin-right: auto;
